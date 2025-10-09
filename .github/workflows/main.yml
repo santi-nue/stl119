@@ -21,7 +21,7 @@ jobs:
           dotnet build map1.csproj -c Release -o .\publish
        
     - name: Upload Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
           name: artifact
           path: ${{ github.workspace }}/**/*
