@@ -56,7 +56,7 @@
             this.gMapControl1.Size = new System.Drawing.Size(800, 450);
             this.gMapControl1.TabIndex = 0;
             this.gMapControl1.Zoom = 5D;
-            this.gMapControl1.Load += new System.EventHandler(this.gMapControl1_Load);
+          
             // 
             // Form1
             // 
