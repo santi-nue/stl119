@@ -18,7 +18,7 @@ public partial class Form1 : Form
         // Set GMapControl properties when the form loads
         this.Load += (s, e) =>
         {
-            gMapControl1.MapProvider = GMapProviders.OpenStreetOsm;
+            gMapControl1.MapProvider = GMapProviders.OpenStreetMap;
             gMapControl1.Position = new PointLatLng(37.7749, -122.4194); // San Francisco
             gMapControl1.MinZoom = 1;
             gMapControl1.MaxZoom = 18;
